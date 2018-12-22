@@ -19,17 +19,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Inf Include="KbdFilter.inf">
+    <Inf Include="ctrl2cap.inf">
       <Filter>Driver Files</Filter>
     </Inf>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="kbdfiltr.cpp">
+    <None Include="README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ctrl2cap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="kbdfiltr.h">
+    <ClInclude Include="ctrl2cap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
